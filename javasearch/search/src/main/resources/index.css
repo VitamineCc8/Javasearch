@@ -1,0 +1,92 @@
+.bigCss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputCss {
+  background-color: #eee;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 30px;
+  font-size: larger;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.inputCss:focus {
+  background-color: #a5a4a4;
+}
+
+.btnCss {
+  margin-right: 20px;
+  border-radius: 10px;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.btnCss:hover {
+  background-color: orange;
+}
+
+.btnCss:active {
+  background-color: red;
+}
+
+.show {
+  margin-top: 10px;
+  width: 60%;
+  height: 550px;
+  overflow: auto;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.show > div {
+  /* border: 1px solid blue;s */
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  background-color: rgb(249, 253, 255);
+  box-shadow: 2px 2px 1px 1px rgba(116, 116, 116, 0.1);
+  transition: 0.2s all;
+  position: relative;
+  overflow: hidden;
+}
+
+.show > div:hover {
+  border-bottom: 2px solid rgb(146, 146, 146);
+}
+
+.del {
+  position:absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 25px;
+  border: 2px solid rgb(255, 179, 179);
+  background-color: #ffa4a4;
+  cursor: pointer;
+  box-shadow: 0 0 2px #aaaaaa;
+  overflow: hidden;
+  transition: .3s;
+  top:calc(100% - 12px);
+  left:calc(100% - 10px);
+}
+
+.del:hover {
+  background-color: rgb(245, 207, 207);
+  transform: scale(1.1);
+  box-shadow: 0 0 4px #111;
+  transition: .3s;
+}
+
+.del:active {
+  background-color: red;
+}
